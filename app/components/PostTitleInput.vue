@@ -3,6 +3,10 @@ interface Props {
   placeholder?: string
 }
 
+defineOptions({
+  inheritAttrs: false,
+})
+
 const props = defineProps<Props>()
 
 const model = defineModel<string>()
@@ -12,6 +16,7 @@ const model = defineModel<string>()
   <div class="grow bg-transparent">
     <input
       v-model="model"
+      v-bind="$attrs"
       v-autofocus
       :placeholder="props.placeholder || 'Add title'"
       type="text"
