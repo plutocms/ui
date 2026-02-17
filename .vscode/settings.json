@@ -19,6 +19,7 @@
   "files.associations": {
     "*.css": "tailwindcss"
   },
+  "tailwindCSS.experimental.configFile": ".nuxt/ui.css",
 
   "editor.codeActionsOnSave": {
     "source.fixAll": "never",

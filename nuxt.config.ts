@@ -2,6 +2,8 @@
 export default defineNuxtConfig({
   extends: ['github:plutocms/utils'],
 
+  modules: ['@nuxt/ui'],
+
   $meta: {
     name: 'ui',
   },
