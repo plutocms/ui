@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  extends: ['github:plutocms/utils'],
+  extends: ['@plutocms/utils'],
 
   modules: ['@nuxt/ui'],
 

@@ -21,5 +21,13 @@
     "prettier": "^3.8.1",
     "vue": "^3.5.28",
     "vue-router": "^4.6.4"
-  }
+  },
+  "dependencies": {
+    "@plutocms/utils": "^0.0.1-alpha.3"
+  },
+  "trustedDependencies": [
+    "@parcel/watcher",
+    "@plutocms/utils",
+    "unrs-resolver"
+  ]
 }
