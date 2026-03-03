@@ -1,9 +1,19 @@
 {
   "name": "@plutocms/ui",
-  "type": "module",
   "version": "0.0.1-alpha.1",
   "author": "Victor Ribeiro",
   "repository": "https://github.com/plutocms/ui",
+  "devDependencies": {
+    "@antfu/eslint-config": "^7.4.3",
+    "@nuxt/eslint": "^1.15.1",
+    "@nuxt/ui": "^4.4.0",
+    "@plutocms/utils": "^0.0.1-alpha.4",
+    "eslint": "^10.0.0",
+    "nuxt": "^4.3.1",
+    "prettier": "^3.8.1",
+    "vue": "^3.5.28",
+    "vue-router": "^4.6.4"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -14,22 +24,10 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix && prettier --write ."
   },
-  "dependencies": {
-    "@plutocms/utils": "^0.0.1-alpha.3"
-  },
-  "devDependencies": {
-    "@antfu/eslint-config": "^7.4.3",
-    "@nuxt/eslint": "^1.15.1",
-    "@nuxt/ui": "^4.4.0",
-    "eslint": "^10.0.0",
-    "nuxt": "^4.3.1",
-    "prettier": "^3.8.1",
-    "vue": "^3.5.28",
-    "vue-router": "^4.6.4"
-  },
   "trustedDependencies": [
     "@parcel/watcher",
     "@plutocms/utils",
     "unrs-resolver"
-  ]
+  ],
+  "type": "module"
 }
