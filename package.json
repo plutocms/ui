@@ -1,8 +1,9 @@
 {
   "name": "@plutocms/ui",
-  "version": "0.0.1-alpha.2",
+  "version": "0.0.1-alpha.3",
   "author": "Victor Ribeiro",
   "repository": "https://github.com/plutocms/ui",
+  "main": "./nuxt.config.ts",
   "devDependencies": {
     "@antfu/eslint-config": "^7.4.3",
     "@nuxt/eslint": "^1.15.1",
