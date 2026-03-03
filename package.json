@@ -1,7 +1,9 @@
 {
-  "name": "ui",
+  "name": "@plutocms/ui",
   "type": "module",
-  "private": true,
+  "version": "0.0.1-alpha.1",
+  "author": "Victor Ribeiro",
+  "repository": "https://github.com/plutocms/ui",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
