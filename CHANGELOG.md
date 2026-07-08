@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/plutocms/ui/compare/v0.1.0...v0.1.1) (2026-07-08)
+
+
+### Bug Fixes
+
+* added tailwindcss dependency ([441cb8d](https://github.com/plutocms/ui/commit/441cb8d6b603a3a5cf4645d14760a54d6ef0a261))
+
 ## [0.1.0](https://github.com/plutocms/ui/compare/v0.0.1-alpha.4...v0.1.0) (2026-07-08)
 
 
