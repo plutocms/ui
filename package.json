@@ -1,7 +1,7 @@
 {
   "name": "@plutocms/ui",
   "type": "module",
-  "version": "0.0.1-alpha.4",
+  "version": "0.1.0",
   "author": "Victor Ribeiro",
   "repository": "https://github.com/plutocms/ui",
   "main": "./nuxt.config.ts",
