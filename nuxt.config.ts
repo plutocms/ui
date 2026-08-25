@@ -8,9 +8,9 @@ export default defineNuxtConfig({
     name: 'ui',
   },
 
-  css: ['#layers/ui/app/assets/css/tailwind.css'],
-
   devtools: { enabled: true },
+
+  css: ['#layers/ui/app/assets/css/tailwind.css'],
 
   compatibilityDate: '2025-07-15',
 })
