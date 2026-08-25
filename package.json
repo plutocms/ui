@@ -2,8 +2,16 @@
   "name": "@plutocms/ui",
   "type": "module",
   "version": "0.1.1",
+  "description": "Shared UI component layer for Pluto CMS",
   "author": "Victor Ribeiro",
-  "repository": "https://github.com/plutocms/ui",
+  "homepage": "https://github.com/plutocms/ui#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plutocms/ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/plutocms/ui/issues"
+  },
   "main": "./nuxt.config.ts",
   "scripts": {
     "build": "nuxt build",
@@ -35,5 +43,8 @@
     "vue": "^3.5.28",
     "vue-router": "^4.6.4",
     "vue-tsc": "^3.3.7"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
