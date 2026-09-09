@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/plutocms/ui/compare/v0.2.0...v0.2.1) (2026-09-09)
+
+
+### Bug Fixes
+
+* **styles:** scope layer Tailwind sources ([#13](https://github.com/plutocms/ui/issues/13)) ([20affcb](https://github.com/plutocms/ui/commit/20affcbed0e6a3367a4e80d30a72c479e9bce39f))
+
 ## [0.2.0](https://github.com/plutocms/ui/compare/v0.1.1...v0.2.0) (2026-09-03)
 
 
