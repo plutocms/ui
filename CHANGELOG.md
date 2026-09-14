@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.2](https://github.com/plutocms/ui/compare/v0.2.1...v0.2.2) (2026-09-14)
+
+
+### Bug Fixes
+
+* **deps:** move @plutocms/utils to dependencies ([#15](https://github.com/plutocms/ui/issues/15)) ([1ee87dc](https://github.com/plutocms/ui/commit/1ee87dca2c280f232d7117f3df1140d834a5457e))
+
 ## [0.2.1](https://github.com/plutocms/ui/compare/v0.2.0...v0.2.1) (2026-09-09)
 
 
