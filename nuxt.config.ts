@@ -14,7 +14,8 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true },
 
-  css: ['#layers/ui/app/assets/css/tailwind.css'],
+  // No `css` entry: the app owns the one Tailwind build, and Nuxt UI scans
+  // this layer's app/ dir. See the single-tailwind-build skill in pluto.
 
   compatibilityDate: '2025-07-15',
 })

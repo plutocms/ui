@@ -8,5 +8,5 @@ policies shared by every project here.
 
 - PostTitleInput component: a controlled title input with autofocus and an edit icon.
   @.claude/skills/post-title-input/SKILL.md
-- Tailwind CSS setup: imports Tailwind and `@nuxt/ui` styles and configures content scanning
-  for this package. @.claude/skills/tailwind-setup/SKILL.md
+- Tailwind CSS setup: this package ships no Tailwind entry. The app owns the only build, and
+  Nuxt UI scans this package's `app/` dir. @.claude/skills/tailwind-setup/SKILL.md
