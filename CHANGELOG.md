@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.3.0](https://github.com/plutocms/ui/compare/v0.2.2...v0.3.0) (2026-10-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* **css:** This layer no longer adds a Tailwind entry. The app's CSS entry must import tailwindcss and @nuxt/ui itself.
+
+### Features
+
+* **css:** stop registering a Tailwind CSS entry ([#18](https://github.com/plutocms/ui/issues/18)) ([a6fd726](https://github.com/plutocms/ui/commit/a6fd726dbbc53cb1ab1799972b18f2073c401f47))
+
 ## [0.2.2](https://github.com/plutocms/ui/compare/v0.2.1...v0.2.2) (2026-10-16)
 
 
