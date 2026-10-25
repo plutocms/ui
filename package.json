@@ -2,7 +2,7 @@
   "name": "@plutocms/ui",
   "type": "module",
   "version": "0.3.0",
-  "description": "Shared UI component layer for Pluto CMS",
+  "description": "Shared UI component layer for Pluto",
   "author": "Victor Ribeiro",
   "homepage": "https://github.com/plutocms/ui#readme",
   "repository": {
